@@ -1,9 +1,7 @@
-package com.zaurtregulov.spring.mvc_hibernate_aop.entity.controller;
+package com.maksymprachyk.spring.mvc_hibernate_aop.entity.controller;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import com.zaurtregulov.spring.mvc_hibernate_aop.entity.Employee;
-import com.zaurtregulov.spring.mvc_hibernate_aop.entity.dao.EmployeeDAO;
-import com.zaurtregulov.spring.mvc_hibernate_aop.entity.secvice.EmployeeService;
+import com.maksymprachyk.spring.mvc_hibernate_aop.entity.secvice.EmployeeService;
+import com.maksymprachyk.spring.mvc_hibernate_aop.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
